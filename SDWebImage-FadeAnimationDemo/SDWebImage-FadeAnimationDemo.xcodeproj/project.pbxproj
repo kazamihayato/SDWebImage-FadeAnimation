@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DF93F801E41FE6100A0520C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93F7F1E41FE6100A0520C /* main.m */; };
+		3DF93F831E41FE6100A0520C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93F821E41FE6100A0520C /* AppDelegate.m */; };
+		3DF93F861E41FE6100A0520C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93F851E41FE6100A0520C /* ViewController.m */; };
+		3DF93F891E41FE6100A0520C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF93F871E41FE6100A0520C /* Main.storyboard */; };
+		3DF93F8B1E41FE6100A0520C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DF93F8A1E41FE6100A0520C /* Assets.xcassets */; };
+		3DF93F8E1E41FE6100A0520C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF93F8C1E41FE6100A0520C /* LaunchScreen.storyboard */; };
+		3DF93F991E41FE6100A0520C /* SDWebImage_FadeAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93F981E41FE6100A0520C /* SDWebImage_FadeAnimationDemoUITests.m */; };
+		3DF93FC41E41FE9200A0520C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3DF93FA41E41FE9200A0520C /* LICENSE */; };
+		3DF93FC51E41FE9200A0520C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FA51E41FE9200A0520C /* README.md */; };
+		3DF93FC61E41FE9200A0520C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FA81E41FE9200A0520C /* NSData+ImageContentType.m */; };
+		3DF93FC71E41FE9200A0520C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FAA1E41FE9200A0520C /* SDImageCache.m */; };
+		3DF93FC81E41FE9200A0520C /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FAC1E41FE9200A0520C /* SDWebImageCompat.m */; };
+		3DF93FC91E41FE9200A0520C /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FAE1E41FE9200A0520C /* SDWebImageDecoder.m */; };
+		3DF93FCA1E41FE9200A0520C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FB01E41FE9200A0520C /* SDWebImageDownloader.m */; };
+		3DF93FCB1E41FE9200A0520C /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FB21E41FE9200A0520C /* SDWebImageDownloaderOperation.m */; };
+		3DF93FCC1E41FE9200A0520C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FB41E41FE9200A0520C /* SDWebImageManager.m */; };
+		3DF93FCD1E41FE9200A0520C /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FB71E41FE9200A0520C /* SDWebImagePrefetcher.m */; };
+		3DF93FCE1E41FE9200A0520C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FB91E41FE9200A0520C /* UIButton+WebCache.m */; };
+		3DF93FCF1E41FE9200A0520C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FBB1E41FE9200A0520C /* UIImage+GIF.m */; };
+		3DF93FD01E41FE9200A0520C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FBD1E41FE9200A0520C /* UIImage+MultiFormat.m */; };
+		3DF93FD11E41FE9200A0520C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FBF1E41FE9200A0520C /* UIImageView+HighlightedWebCache.m */; };
+		3DF93FD21E41FE9200A0520C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FC11E41FE9200A0520C /* UIImageView+WebCache.m */; };
+		3DF93FD31E41FE9200A0520C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FC31E41FE9200A0520C /* UIView+WebCacheOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DF93F951E41FE6100A0520C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF93F731E41FE6100A0520C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF93F7A1E41FE6100A0520C;
+			remoteInfo = "SDWebImage-FadeAnimationDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF93F7B1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDWebImage-FadeAnimationDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF93F7F1E41FE6100A0520C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DF93F811E41FE6100A0520C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DF93F821E41FE6100A0520C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DF93F841E41FE6100A0520C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3DF93F851E41FE6100A0520C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3DF93F881E41FE6100A0520C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DF93F8A1E41FE6100A0520C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DF93F8D1E41FE6100A0520C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DF93F8F1E41FE6100A0520C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF93F941E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SDWebImage-FadeAnimationDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF93F981E41FE6100A0520C /* SDWebImage_FadeAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImage_FadeAnimationDemoUITests.m; sourceTree = "<group>"; };
+		3DF93F9A1E41FE6100A0520C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DF93FA41E41FE9200A0520C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3DF93FA51E41FE9200A0520C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3DF93FA71E41FE9200A0520C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		3DF93FA81E41FE9200A0520C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		3DF93FA91E41FE9200A0520C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		3DF93FAA1E41FE9200A0520C /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		3DF93FAB1E41FE9200A0520C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		3DF93FAC1E41FE9200A0520C /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		3DF93FAD1E41FE9200A0520C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		3DF93FAE1E41FE9200A0520C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		3DF93FAF1E41FE9200A0520C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		3DF93FB01E41FE9200A0520C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		3DF93FB11E41FE9200A0520C /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		3DF93FB21E41FE9200A0520C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		3DF93FB31E41FE9200A0520C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		3DF93FB41E41FE9200A0520C /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		3DF93FB51E41FE9200A0520C /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		3DF93FB61E41FE9200A0520C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		3DF93FB71E41FE9200A0520C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		3DF93FB81E41FE9200A0520C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		3DF93FB91E41FE9200A0520C /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		3DF93FBA1E41FE9200A0520C /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		3DF93FBB1E41FE9200A0520C /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		3DF93FBC1E41FE9200A0520C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		3DF93FBD1E41FE9200A0520C /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		3DF93FBE1E41FE9200A0520C /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		3DF93FBF1E41FE9200A0520C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		3DF93FC01E41FE9200A0520C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		3DF93FC11E41FE9200A0520C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		3DF93FC21E41FE9200A0520C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		3DF93FC31E41FE9200A0520C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF93F781E41FE6100A0520C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF93F911E41FE6100A0520C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF93F721E41FE6100A0520C = {
+			isa = PBXGroup;
+			children = (
+				3DF93F7D1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo */,
+				3DF93F971E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests */,
+				3DF93F7C1E41FE6100A0520C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF93F7C1E41FE6100A0520C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF93F7B1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo.app */,
+				3DF93F941E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DF93F7D1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3DF93FA31E41FE9200A0520C /* SDWebImage */,
+				3DF93F811E41FE6100A0520C /* AppDelegate.h */,
+				3DF93F821E41FE6100A0520C /* AppDelegate.m */,
+				3DF93F841E41FE6100A0520C /* ViewController.h */,
+				3DF93F851E41FE6100A0520C /* ViewController.m */,
+				3DF93F871E41FE6100A0520C /* Main.storyboard */,
+				3DF93F8A1E41FE6100A0520C /* Assets.xcassets */,
+				3DF93F8C1E41FE6100A0520C /* LaunchScreen.storyboard */,
+				3DF93F8F1E41FE6100A0520C /* Info.plist */,
+				3DF93F7E1E41FE6100A0520C /* Supporting Files */,
+			);
+			path = "SDWebImage-FadeAnimationDemo";
+			sourceTree = "<group>";
+		};
+		3DF93F7E1E41FE6100A0520C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF93F7F1E41FE6100A0520C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DF93F971E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DF93F981E41FE6100A0520C /* SDWebImage_FadeAnimationDemoUITests.m */,
+				3DF93F9A1E41FE6100A0520C /* Info.plist */,
+			);
+			path = "SDWebImage-FadeAnimationDemoUITests";
+			sourceTree = "<group>";
+		};
+		3DF93FA31E41FE9200A0520C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3DF93FA41E41FE9200A0520C /* LICENSE */,
+				3DF93FA51E41FE9200A0520C /* README.md */,
+				3DF93FA61E41FE9200A0520C /* SDWebImage */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		3DF93FA61E41FE9200A0520C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				3DF93FA71E41FE9200A0520C /* NSData+ImageContentType.h */,
+				3DF93FA81E41FE9200A0520C /* NSData+ImageContentType.m */,
+				3DF93FA91E41FE9200A0520C /* SDImageCache.h */,
+				3DF93FAA1E41FE9200A0520C /* SDImageCache.m */,
+				3DF93FAB1E41FE9200A0520C /* SDWebImageCompat.h */,
+				3DF93FAC1E41FE9200A0520C /* SDWebImageCompat.m */,
+				3DF93FAD1E41FE9200A0520C /* SDWebImageDecoder.h */,
+				3DF93FAE1E41FE9200A0520C /* SDWebImageDecoder.m */,
+				3DF93FAF1E41FE9200A0520C /* SDWebImageDownloader.h */,
+				3DF93FB01E41FE9200A0520C /* SDWebImageDownloader.m */,
+				3DF93FB11E41FE9200A0520C /* SDWebImageDownloaderOperation.h */,
+				3DF93FB21E41FE9200A0520C /* SDWebImageDownloaderOperation.m */,
+				3DF93FB31E41FE9200A0520C /* SDWebImageManager.h */,
+				3DF93FB41E41FE9200A0520C /* SDWebImageManager.m */,
+				3DF93FB51E41FE9200A0520C /* SDWebImageOperation.h */,
+				3DF93FB61E41FE9200A0520C /* SDWebImagePrefetcher.h */,
+				3DF93FB71E41FE9200A0520C /* SDWebImagePrefetcher.m */,
+				3DF93FB81E41FE9200A0520C /* UIButton+WebCache.h */,
+				3DF93FB91E41FE9200A0520C /* UIButton+WebCache.m */,
+				3DF93FBA1E41FE9200A0520C /* UIImage+GIF.h */,
+				3DF93FBB1E41FE9200A0520C /* UIImage+GIF.m */,
+				3DF93FBC1E41FE9200A0520C /* UIImage+MultiFormat.h */,
+				3DF93FBD1E41FE9200A0520C /* UIImage+MultiFormat.m */,
+				3DF93FBE1E41FE9200A0520C /* UIImageView+HighlightedWebCache.h */,
+				3DF93FBF1E41FE9200A0520C /* UIImageView+HighlightedWebCache.m */,
+				3DF93FC01E41FE9200A0520C /* UIImageView+WebCache.h */,
+				3DF93FC11E41FE9200A0520C /* UIImageView+WebCache.m */,
+				3DF93FC21E41FE9200A0520C /* UIView+WebCacheOperation.h */,
+				3DF93FC31E41FE9200A0520C /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF93F7A1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF93F9D1E41FE6100A0520C /* Build configuration list for PBXNativeTarget "SDWebImage-FadeAnimationDemo" */;
+			buildPhases = (
+				3DF93F771E41FE6100A0520C /* Sources */,
+				3DF93F781E41FE6100A0520C /* Frameworks */,
+				3DF93F791E41FE6100A0520C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDWebImage-FadeAnimationDemo";
+			productName = "SDWebImage-FadeAnimationDemo";
+			productReference = 3DF93F7B1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF93F931E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF93FA01E41FE6100A0520C /* Build configuration list for PBXNativeTarget "SDWebImage-FadeAnimationDemoUITests" */;
+			buildPhases = (
+				3DF93F901E41FE6100A0520C /* Sources */,
+				3DF93F911E41FE6100A0520C /* Frameworks */,
+				3DF93F921E41FE6100A0520C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF93F961E41FE6100A0520C /* PBXTargetDependency */,
+			);
+			name = "SDWebImage-FadeAnimationDemoUITests";
+			productName = "SDWebImage-FadeAnimationDemoUITests";
+			productReference = 3DF93F941E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF93F731E41FE6100A0520C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JiJi;
+				TargetAttributes = {
+					3DF93F7A1E41FE6100A0520C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					3DF93F931E41FE6100A0520C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DF93F7A1E41FE6100A0520C;
+					};
+				};
+			};
+			buildConfigurationList = 3DF93F761E41FE6100A0520C /* Build configuration list for PBXProject "SDWebImage-FadeAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF93F721E41FE6100A0520C;
+			productRefGroup = 3DF93F7C1E41FE6100A0520C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF93F7A1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo */,
+				3DF93F931E41FE6100A0520C /* SDWebImage-FadeAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF93F791E41FE6100A0520C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF93F8E1E41FE6100A0520C /* LaunchScreen.storyboard in Resources */,
+				3DF93F8B1E41FE6100A0520C /* Assets.xcassets in Resources */,
+				3DF93FC41E41FE9200A0520C /* LICENSE in Resources */,
+				3DF93F891E41FE6100A0520C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF93F921E41FE6100A0520C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF93F771E41FE6100A0520C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF93FC61E41FE9200A0520C /* NSData+ImageContentType.m in Sources */,
+				3DF93FCC1E41FE9200A0520C /* SDWebImageManager.m in Sources */,
+				3DF93FD11E41FE9200A0520C /* UIImageView+HighlightedWebCache.m in Sources */,
+				3DF93FCA1E41FE9200A0520C /* SDWebImageDownloader.m in Sources */,
+				3DF93FD21E41FE9200A0520C /* UIImageView+WebCache.m in Sources */,
+				3DF93FC71E41FE9200A0520C /* SDImageCache.m in Sources */,
+				3DF93F861E41FE6100A0520C /* ViewController.m in Sources */,
+				3DF93F831E41FE6100A0520C /* AppDelegate.m in Sources */,
+				3DF93FC91E41FE9200A0520C /* SDWebImageDecoder.m in Sources */,
+				3DF93FD01E41FE9200A0520C /* UIImage+MultiFormat.m in Sources */,
+				3DF93FCB1E41FE9200A0520C /* SDWebImageDownloaderOperation.m in Sources */,
+				3DF93FC51E41FE9200A0520C /* README.md in Sources */,
+				3DF93FCE1E41FE9200A0520C /* UIButton+WebCache.m in Sources */,
+				3DF93FCD1E41FE9200A0520C /* SDWebImagePrefetcher.m in Sources */,
+				3DF93FC81E41FE9200A0520C /* SDWebImageCompat.m in Sources */,
+				3DF93FCF1E41FE9200A0520C /* UIImage+GIF.m in Sources */,
+				3DF93FD31E41FE9200A0520C /* UIView+WebCacheOperation.m in Sources */,
+				3DF93F801E41FE6100A0520C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF93F901E41FE6100A0520C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF93F991E41FE6100A0520C /* SDWebImage_FadeAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF93F961E41FE6100A0520C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF93F7A1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo */;
+			targetProxy = 3DF93F951E41FE6100A0520C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DF93F871E41FE6100A0520C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF93F881E41FE6100A0520C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DF93F8C1E41FE6100A0520C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DF93F8D1E41FE6100A0520C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DF93F9B1E41FE6100A0520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DF93F9C1E41FE6100A0520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF93F9E1E41FE6100A0520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDWebImage-FadeAnimationDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZBB.SDWebImage-FadeAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DF93F9F1E41FE6100A0520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDWebImage-FadeAnimationDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZBB.SDWebImage-FadeAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DF93FA11E41FE6100A0520C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SDWebImage-FadeAnimationDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZBB.SDWebImage-FadeAnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SDWebImage-FadeAnimationDemo";
+			};
+			name = Debug;
+		};
+		3DF93FA21E41FE6100A0520C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SDWebImage-FadeAnimationDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZBB.SDWebImage-FadeAnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SDWebImage-FadeAnimationDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF93F761E41FE6100A0520C /* Build configuration list for PBXProject "SDWebImage-FadeAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF93F9B1E41FE6100A0520C /* Debug */,
+				3DF93F9C1E41FE6100A0520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF93F9D1E41FE6100A0520C /* Build configuration list for PBXNativeTarget "SDWebImage-FadeAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF93F9E1E41FE6100A0520C /* Debug */,
+				3DF93F9F1E41FE6100A0520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DF93FA01E41FE6100A0520C /* Build configuration list for PBXNativeTarget "SDWebImage-FadeAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF93FA11E41FE6100A0520C /* Debug */,
+				3DF93FA21E41FE6100A0520C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DF93F731E41FE6100A0520C /* Project object */;
+}
