@@ -80,12 +80,7 @@ static char imageURLStorageKey;
                 return;
             }
             else if (image) {
-                CATransition *animation = [CATransition animation];
-                [animation setDuration:0.65f];
-                [animation setType:kCATransitionFade];
-                animation.removedOnCompletion = YES;
-                [sself.layer addAnimation:animation forKey:@"transition"];
-                
+            
                 [sself setImage:image forState:state];
                 
             }
@@ -94,7 +89,6 @@ static char imageURLStorageKey;
             }
         });
     }];
-    [self.layer removeAnimationForKey:@"transition"];
     [self sd_setImageLoadOperation:operation forState:state];
 }
 

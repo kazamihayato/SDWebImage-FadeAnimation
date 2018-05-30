@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIImageView+WebCache.h"
+#import "UIImageView+SDCategory.h"
 
 
 @interface ViewController ()
@@ -33,8 +33,8 @@
     
     sender.selected=!sender.selected;
     if (sender.selected) {
-        [_testImgv sd_setImageWithURL:[NSURL URLWithString:@"http://img1.gtimg.com/sports/pics/hv1/182/87/2183/141971942.jpg"]];
-        [_testImgv2 sd_setImageWithURL:[NSURL URLWithString:@"http://img1.gtimg.com/sports/pics/hv1/143/88/2183/141972158.jpg"]];
+        [_testImgv sd_setFadeImageWithURL:[NSURL URLWithString:@"http://img1.gtimg.com/sports/pics/hv1/182/87/2183/141971942.jpg"]];
+        [_testImgv2 sd_setFadeImageWithURL:[NSURL URLWithString:@"http://img1.gtimg.com/sports/pics/hv1/143/88/2183/141972158.jpg"]];
     }
     else
     {

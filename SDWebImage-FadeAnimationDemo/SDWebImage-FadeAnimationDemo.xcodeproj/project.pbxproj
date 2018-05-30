@@ -30,6 +30,8 @@
 		3DF93FD11E41FE9200A0520C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FBF1E41FE9200A0520C /* UIImageView+HighlightedWebCache.m */; };
 		3DF93FD21E41FE9200A0520C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FC11E41FE9200A0520C /* UIImageView+WebCache.m */; };
 		3DF93FD31E41FE9200A0520C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF93FC31E41FE9200A0520C /* UIView+WebCacheOperation.m */; };
+		3DFAD99F20BD32D60067ACDE /* UIImageView+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAD99E20BD32D60067ACDE /* UIImageView+SDCategory.m */; };
+		3DFAD9A220BD508E0067ACDE /* UIButton+SDCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFAD9A120BD508E0067ACDE /* UIButton+SDCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,10 @@
 		3DF93FC11E41FE9200A0520C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		3DF93FC21E41FE9200A0520C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		3DF93FC31E41FE9200A0520C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		3DFAD99D20BD32D60067ACDE /* UIImageView+SDCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDCategory.h"; sourceTree = "<group>"; };
+		3DFAD99E20BD32D60067ACDE /* UIImageView+SDCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDCategory.m"; sourceTree = "<group>"; };
+		3DFAD9A020BD508E0067ACDE /* UIButton+SDCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+SDCategory.h"; sourceTree = "<group>"; };
+		3DFAD9A120BD508E0067ACDE /* UIButton+SDCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SDCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 		3DF93F7D1E41FE6100A0520C /* SDWebImage-FadeAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3DFAD9A620BE523E0067ACDE /* Class */,
 				3DF93FA31E41FE9200A0520C /* SDWebImage */,
 				3DF93F811E41FE6100A0520C /* AppDelegate.h */,
 				3DF93F821E41FE6100A0520C /* AppDelegate.m */,
@@ -205,6 +212,17 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		3DFAD9A620BE523E0067ACDE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3DFAD99D20BD32D60067ACDE /* UIImageView+SDCategory.h */,
+				3DFAD99E20BD32D60067ACDE /* UIImageView+SDCategory.m */,
+				3DFAD9A020BD508E0067ACDE /* UIButton+SDCategory.h */,
+				3DFAD9A120BD508E0067ACDE /* UIButton+SDCategory.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -249,7 +267,7 @@
 		3DF93F731E41FE6100A0520C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = JiJi;
 				TargetAttributes = {
 					3DF93F7A1E41FE6100A0520C = {
@@ -323,8 +341,10 @@
 				3DF93FCE1E41FE9200A0520C /* UIButton+WebCache.m in Sources */,
 				3DF93FCD1E41FE9200A0520C /* SDWebImagePrefetcher.m in Sources */,
 				3DF93FC81E41FE9200A0520C /* SDWebImageCompat.m in Sources */,
+				3DFAD99F20BD32D60067ACDE /* UIImageView+SDCategory.m in Sources */,
 				3DF93FCF1E41FE9200A0520C /* UIImage+GIF.m in Sources */,
 				3DF93FD31E41FE9200A0520C /* UIView+WebCacheOperation.m in Sources */,
+				3DFAD9A220BD508E0067ACDE /* UIButton+SDCategory.m in Sources */,
 				3DF93F801E41FE6100A0520C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,15 +396,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -423,15 +451,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -518,6 +554,7 @@
 				3DF93F9F1E41FE6100A0520C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DF93FA01E41FE6100A0520C /* Build configuration list for PBXNativeTarget "SDWebImage-FadeAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +563,7 @@
 				3DF93FA21E41FE6100A0520C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
